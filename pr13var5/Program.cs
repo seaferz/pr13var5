@@ -27,7 +27,7 @@ using (StreamWriter writer1 = new StreamWriter(a))
     //генерация случайных чисел и запись в файлы
     for (int i = 0; i < 100; i++)
     {
-        int value1 = random.Next(-100,100);
+        int value1 = random.Next(-100,101);
         writer1.WriteLine(value1);
     }
 }
